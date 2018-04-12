@@ -1,0 +1,156 @@
+
+
+body {
+	background-color: white;
+	font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;  /* needed to make sure body fills up window */
+    display: flex;
+	flex-direction: column; /*stack items inside horizontally*/
+}
+
+header {
+	text-align: left;
+	background-color: #E8AB9E; 
+	font-family: 'Montserrat', sans-serif;
+	/*font-size: x-large;*/
+	padding: 25px;
+	flex: 0 0 auto;  /* don't grow, don't shrink, hold contents */
+
+}
+
+div.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: flex-start;
+}
+
+#title {
+	font-size: large;
+}
+
+#navbar {
+	font-size: medium;
+}
+
+h1{
+	color: white;
+	margin: 0;
+	
+}
+
+h4{
+	color: white;
+	font-weight: normal;
+	margin: 0;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+li {
+	 float: left;
+}
+
+
+a{
+	display: block;
+	padding: 25px;
+	color: white;
+	font-size: medium;
+	text-decoration: none;
+}
+
+/* flex item of body */
+main {
+	flex: 1 0 auto; 
+	/* grow , don't shrink, be large enough to contain contents */
+}
+
+/* flex item of body */
+footer {
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    background-color: #E8AB9E;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 5% 0 0;
+	flex: 0 0 auto;  /* don't grow, don't shrink, hold contents */
+}
+
+div.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: stretch;
+	padding: 0 5% 0 0;
+	align-content: flex-start;
+	margin: 0;
+
+}
+
+#address {
+	border: solid 1em transparent;
+   	box-sizing: border-box;
+    position: relative;
+}
+
+#hours {
+	border: solid 1em transparent;
+   	box-sizing: border-box;
+    position: relative;
+}
+
+
+@media (max-width: 480px) {
+
+	div.header {
+		display: flex;
+		flex-direction: column-reverse;
+		align-content: center;
+		justify-content: center;
+	}
+
+	ul {
+		padding: 3%;
+	}
+
+	li {
+	 float: left;
+	 border-right: 1px solid #FFFFFF;
+	 line-height: 1px;
+	 padding-top: 1px;
+	 padding-bottom: 1px;
+}
+
+	li:last-child { border-right: none }
+
+
+	#title {
+		text-align: center;
+		font-size: small;
+	}
+
+	#navbar {
+		text-align: center;
+		font-size: x-small;
+
+	}
+
+
+	div.footer {
+		display: flex;
+		flex-direction: column;
+	}
+
+}
+
+
+
+
+
