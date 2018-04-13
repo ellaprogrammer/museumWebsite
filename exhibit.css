@@ -1,4 +1,4 @@
-
+/* flex item of body */
 
 body {
 	background-color: white;
@@ -26,11 +26,22 @@ div.header {
 }
 
 #title {
-	font-size: large;
+	font-size: xx-large;
 }
 
-#navbar {
-	font-size: medium;
+#subtitle {
+	font-size: x-large;
+}
+
+#navbar1 {
+	font-size: small;
+	max-height: 10px;
+}
+#navbar2 {
+	font-size: small;
+}
+#navbar3 {
+	font-size: small;
 }
 
 h1{
@@ -91,17 +102,18 @@ div.footer {
 	padding: 0 5% 0 0;
 	align-content: flex-start;
 	margin: 0;
+	font-size: small;
 
 }
 
 #address {
-	border: solid 1em transparent;
+	border: solid 2em transparent;
    	box-sizing: border-box;
     position: relative;
 }
 
 #hours {
-	border: solid 1em transparent;
+	border: solid 2em transparent;
    	box-sizing: border-box;
     position: relative;
 }
@@ -117,40 +129,62 @@ div.footer {
 	}
 
 	ul {
-		padding: 3%;
+		padding: 15%;
+		padding-top: 5%;
+		padding-bottom: 13%;
+		align-content: center;
+		text-align: center;
 	}
 
 	li {
-	 float: left;
-	 border-right: 1px solid #FFFFFF;
-	 line-height: 1px;
-	 padding-top: 1px;
-	 padding-bottom: 1px;
-}
+		 float: left;
+		 border-right: 1px solid #FFFFFF;
+		 line-height: 1px;
+		 padding-top: 0px;
+		 padding-bottom: 0px;
+		 padding-left: 4%
+		 padding-right: 4%;
+	}
+
+	a {
+		padding: 10px;
+	}
 
 	li:last-child { border-right: none }
 
 
 	#title {
 		text-align: center;
+		font-size: xx-large;
+	}
+
+	#subtitle {
+		text-align: center;
 		font-size: small;
 	}
 
-	#navbar {
-		text-align: center;
-		font-size: x-small;
+#navbar1 {
+	text-align: center;
+	font-size: medium;
 
-	}
-
-
-	div.footer {
-		display: flex;
-		flex-direction: column;
-	}
-
+}
+#navbar2 {
+	text-align: center;
+	font-size: medium;
+	font-weight: lighter;
+}
+#navbar3 {
+	text-align: center;
+	font-size: medium;
+	font-weight: lighter;
 }
 
 
+	div.footer {
+		
+		display: flex;
+		flex-direction: column;
+		font-size: small;
+	}
 
-
-
+}
