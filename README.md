@@ -1,6 +1,6 @@
 # museumWebsite
 
-Contributers @ellaprogrammer
+Contributers @ellaprogrammer @zsilverman
 
 Manetti Shrem Museum Exhibit website from Mock-up provided by undergraduate designer @Dana
 
