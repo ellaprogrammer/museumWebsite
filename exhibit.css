@@ -76,13 +76,108 @@ a{
 	color: white;
 	font-size: medium;
 	text-decoration: none;
+
 }
+
+
+
+
+
+
 
 /* flex item of body */
 main {
 	flex: 1 0 auto; 
 	/* grow , don't shrink, be large enough to contain contents */
 }
+
+h2{
+	color: #6C2E2F;
+	font-size: large;
+}
+
+p {
+	color: #6C2E2F;
+	line-height: 24px;
+	font-weight: lighter;
+}
+
+img {
+	width: 40%;  /* fill up div.image */
+}
+
+.caption{
+	margin: 3% 0% 5% 0%;
+}
+
+h5{
+	font-weight: normal;
+	margin: -5% 0% 5% 0%;
+	font-style: italic;
+	color: #6C2E2F;
+}
+
+.twobox {
+	display: flex;
+	flex-direction: row;
+}
+
+.left {
+	width: 35%;
+	padding: 3%;
+	padding-top: 1%;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    padding: 3%;
+}
+.pic1 {
+	width: 50%;
+	padding: 0;
+}
+.pic2 {
+	width: 50%;
+	padding: 0;
+}
+.pic3 {
+	width: 50%;
+}
+.pic4 {
+	width: 50%;
+}
+.pic5 {
+	width: 50%;
+}
+.pic6 {
+	width: 50%;
+}
+/*.picsbox {
+	display: flex;
+    flex-wrap: wrap;
+
+}
+
+.pics1 {
+	width: 20%;
+}
+
+.pics2 {
+	width: 20%;
+}
+
+.pics3 {
+	width: 20%;
+}*/
+
+
+
+
+
+
+
 
 /* flex item of body */
 footer {
@@ -163,22 +258,39 @@ div.footer {
 		font-size: small;
 	}
 
-#navbar1 {
-	text-align: center;
-	font-size: medium;
+	#navbar1 {
+		text-align: center;
+		font-size: medium;
 
-}
-#navbar2 {
-	text-align: center;
-	font-size: medium;
-	font-weight: lighter;
-}
-#navbar3 {
-	text-align: center;
-	font-size: medium;
-	font-weight: lighter;
+	}
+	#navbar2 {
+		text-align: center;
+		font-size: medium;
+		font-weight: lighter;
+	}
+	#navbar3 {
+		text-align: center;
+		font-size: medium;
+		font-weight: lighter;
+	}
+
+	.twobox {
+	display: flex;
+	flex-direction: column;
 }
 
+.left {
+	width: 92%;
+	padding: 3%;
+	padding-top: 1%;
+}
+
+	.content {
+    display: flex;
+    flex-direction: column;
+ 	width: 100%;
+    padding: 3%;
+}
 
 	div.footer {
 		
