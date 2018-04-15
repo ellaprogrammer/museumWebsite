@@ -6,6 +6,7 @@ body {
     min-height: 100vh;  /* needed to make sure body fills up window */
     display: flex;
 	flex-direction: column; /*stack items inside horizontally*/
+	overflow-x: hidden;
 }
 
 header {
@@ -90,6 +91,10 @@ main {
 	/* grow , don't shrink, be large enough to contain contents */
 }
 
+.bottomBox {
+	visibility: hidden;
+}
+
 h2{
 	color: #6C2E2F;
 	font-size: large;
@@ -126,8 +131,7 @@ hr {
     background-color: #6C2E2F;
     width: 5%;
     margin-left: 0;
-
-	width: 80%;  /* fill up div.image */
+	width: 5%;  /* fill up div.image */ /*CHANGED FROM 80%*/
 
 }
 
@@ -180,21 +184,9 @@ h5{
 .pic6 {
 	width: 50%;
 }
-/*.picsbox {
-	display: flex;
-    flex-wrap: wrap;
-}
-.pics1 {
-	width: 20%;
-}
-.pics2 {
-	width: 20%;
-}
-.pics3 {
-	width: 20%;
-}*/
 
-/* flex item of body */
+
+
 footer {
     text-align: left;
     color: white;
@@ -238,6 +230,54 @@ div.footer {
 		justify-content: center;
 	}
 
+	h2{
+		font-size: small;
+		padding-right: 1.5%;
+	}
+
+	#caption1{
+		flex-direction: row;
+		display: flex;
+		align-items: baseline;
+		border-left: 2%;
+		width: 180%;
+	}
+
+	#caption2{
+		flex-direction: row;
+		display: flex;
+		align-items: baseline;
+		width: 180%;
+	}
+
+	#caption3{
+		flex-direction: row;
+		display: flex;
+		align-items: baseline;
+		width: 180%;
+	}
+
+	#caption4{
+		flex-direction: row;
+		display: flex;
+		align-items: baseline;
+		width: 180%;
+	}
+
+	#caption5{
+		flex-direction: row;
+		display: flex;
+		align-items: baseline;
+		width: 180%;
+	}
+
+	#caption6{
+		flex-direction: row;
+		display: flex;
+		align-items: baseline;
+		width: 180%;
+	}
+
 	img {
 		width: 185%;
 		align-self: center;
@@ -249,6 +289,10 @@ div.footer {
 
 	div.content{
 		padding-top: 1%;
+	}
+
+	.bottomBox {
+		visibility: hidden;
 	}
 
 	#vl{
@@ -296,7 +340,8 @@ div.footer {
 	ul {
 		padding: 15%;
 		padding-top: 5%;
-		padding-bottom: 13%;
+		padding-bottom: 8%;
+		padding-left: 25%;
 		align-content: center;
 		text-align: center;
 	}
@@ -307,7 +352,6 @@ div.footer {
 		 line-height: 1px;
 		 padding-top: 0px;
 		 padding-bottom: 0px;
-		 padding-left: 1%;
 	}
 
 	a {
@@ -325,8 +369,8 @@ div.footer {
 	#subtitle {
 		text-align: center;
 		font-size: xx-small;
-		padding-left: 5%;
-		padding-right: 3%;
+		padding-left: 13%;
+	/*	padding-right: 3%;*/
 	}
 
 	#navbar1 {
@@ -371,7 +415,7 @@ div.footer {
 
 }
 
-@media (max-width: 850px) {
+@media (max-width: 750px) {
 	#navbar1 {
 		text-align: center;
 		font-size: small;
@@ -390,27 +434,74 @@ div.footer {
 		text-align: left;
 		font-size: medium;
 	}
+	.bottomBox {
+		visibility: hidden;
+	}
 }
 
-@media (min-width: 1100px) {
-	.pic1 {
-		width: 33%;
-		padding: 0;
+@media (min-width: 850px) {
+
+	.content {
+		flex-wrap: nowrap;
+		padding-bottom: 0%;
+		padding-right: 0%;
 	}
-	.pic2 {
-		width: 33%;
+	.pic1 {
+		width: 100%;
 		padding: 0;
+
+	}
+	#caption1{
+		flex-direction: row;
+		display: flex;
+		align-items: baseline;
+		width: 50%;
+	}
+
+	.caption {
+		margin: 1.5% .7% 1% 0%;
+	}
+
+	.pic2 {
+		display: none;
 	}
 	.pic3 {
-		width: 33%;
+		display: none;
 	}
 	.pic4 {
-		width: 33%;
+		display: none;
 	}
 	.pic5 {
-		width: 33%;
+		display: none;
 	}
 	.pic6 {
-		width: 33%;
+		display: none;
+	}
+
+	#bpic1 {
+		width: 16.6%;
+		padding: 0;
+	}
+	#bpic2 {
+		width: 16.6%;
+		padding: 0;
+	}
+	#bpic3 {
+		width: 16.6%;
+	}
+	#bpic4 {
+		width: 16.6%;
+	}
+	#bpic5 {
+		width: 16.6%;
+	}
+	#bpic6 {
+		width: 16.8%;
+	}
+	.bottomBox {
+		visibility: visible;
+		display: flex;
+		flex-direction: row;
+		align-items: baseline;
 	}
 }
