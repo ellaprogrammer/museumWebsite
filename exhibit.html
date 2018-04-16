@@ -40,42 +40,42 @@
 		</div>
 	<div class="content">
 		  <div class="pic1">
-		  	<img src="../exhibitAssets/Wind Toys, 1962. oil on canvas.jpg">
+		  	<img id="cpic1" src="./exhibitAssets/Wind Toys, 1962. oil on canvas.jpg">
 		  	<div id="caption1">
-		  		<h2 class="caption">Wind Toys</h2>
-		  		<h5> (1962. oil on canvas) </h5>
+		  		<h2 class="caption" id="big-box-description">Wind Toys</h2>
+		  		<h5 id="big-box-description2">(1962. oil on canvas)</h5>
 		  	</div>
 		  </div>
 		  <div class="pic2">
-		  	<img src="../exhibitAssets/Pancake Breakfast, 2008. oil on canvas.jpg">
+		  	<img src="./exhibitAssets/Pancake Breakfast, 2008. oil on canvas.jpg">
 		  	<div id="caption2">
 		  		<h2 class="caption">Pancake Breakfast</h2>
 				<h5>(2008. oil on canvas)</h5>
 			</div>	
 		</div>
 		  <div class="pic3">
-		  	<img src="../exhibitAssets/Around the Cake, 1962, oil on canvas.jpg">
+		  	<img src="./exhibitAssets/Around the Cake, 1962, oil on canvas.jpg">
 		  	<div id="caption3">
 				<h2 class="caption">Around the Cake</h2>
 				<h5>(1962. oil on canvas)</h5>
 			</div>
 		  </div>
 		  <div class="pic4">
-		  	<img src="../exhibitAssets/Three Machines, 1963. oil on canvas.jpg">
+		  	<img src="./exhibitAssets/Three Machines, 1963. oil on canvas.jpg">
 		  	<div id="caption4">
 				<h2 class="caption">Three Machines</h2>
 				<h5>(1963. oil on canvas)</h5>
 			</div>
 		  </div>
 		  <div class="pic5">
-		  	<img src="../exhibitAssets/Boston Creems, 1962. oil on canvas.jpg">
+		  	<img src="./exhibitAssets/Boston Creems, 1962. oil on canvas.jpg">
 		  	<div id="caption5">
-				<h2 class="caption">Boston Cremes </h2>
+				<h2 class="caption">Boston Cremes</h2>
 				<h5>(1962. oil on canvas)</h5>
 			</div>
 		  </div>
 		  <div class="pic6">
-		  	<img src="../exhibitAssets/Bananas, 1963. Oil on canvas.jpg">
+		  	<img src="./exhibitAssets/Bananas, 1963. Oil on canvas.jpg">
 			<div id="caption6">
 				<h2 class="caption">Bananas</h2>
 				<h5>(1963. oil on canvas)</h5>
@@ -85,12 +85,12 @@
 </div>
 
 	<div class="bottomBox">
-		<img id="bpic1" src="../exhibitAssets/Wind Toys, 1962. oil on canvas.jpg">
-		<img id="bpic2" src="../exhibitAssets/Pancake Breakfast, 2008. oil on canvas.jpg">
-		<img id="bpic3" src="../exhibitAssets/Around the Cake, 1962, oil on canvas.jpg">
-		<img id="bpic4" src="../exhibitAssets/Three Machines, 1963. oil on canvas.jpg">	
-		<img id="bpic5" src="../exhibitAssets/Boston Creems, 1962. oil on canvas.jpg">
-		<img id="bpic6" src="../exhibitAssets/Bananas, 1963. Oil on canvas.jpg">
+		<img class="picture" onclick="enlarge('./exhibitAssets/Wind Toys, 1962. oil on canvas.jpg','Wind Toys', '(1962. oil on canvas)')" id="bpic1" src="./exhibitAssets/Wind Toys, 1962. oil on canvas.jpg">
+		<img class="picture" onclick="enlarge('./exhibitAssets/Pancake Breakfast, 2008. oil on canvas.jpg','Pancake Breakfast','(2008. oil on canvas)')" id="bpic2" src="./exhibitAssets/Pancake Breakfast, 2008. oil on canvas.jpg">
+		<img class="picture" onclick="enlarge('./exhibitAssets/Around the Cake, 1962, oil on canvas.jpg','Around the Cake','(1962. oil on canvas)')" id="bpic3" src="./exhibitAssets/Around the Cake, 1962, oil on canvas.jpg">
+		<img class="picture" onclick="enlarge('./exhibitAssets/Three Machines, 1963. oil on canvas.jpg','Three Machines','(1963. oil on canvas)')" id="bpic4" src="./exhibitAssets/Three Machines, 1963. oil on canvas.jpg">	
+		<img class="picture" onclick="enlarge('./exhibitAssets/Boston Creems, 1962. oil on canvas.jpg','Boston Cremes','(1962. oil on canvas)')" id="bpic5" src="./exhibitAssets/Boston Creems, 1962. oil on canvas.jpg">
+		<img class="picture" onclick="enlarge('./exhibitAssets/Bananas, 1963. Oil on canvas.jpg','Bananas','(1963. oil on canvas)')" id="bpic6" src="./exhibitAssets/Bananas, 1963. Oil on canvas.jpg">
 			 	
 
 	</div>
@@ -121,5 +121,7 @@
 		</div>
 	</div>
 </footer>
+
+<script src="actions.js"> </script>
 </body>
 </html>

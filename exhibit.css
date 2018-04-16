@@ -92,7 +92,7 @@ main {
 }
 
 .bottomBox {
-	visibility: hidden;
+	display: none;
 }
 
 h2{
@@ -435,7 +435,7 @@ div.footer {
 		font-size: medium;
 	}
 	.bottomBox {
-		visibility: hidden;
+		display: none;
 	}
 }
 
@@ -455,7 +455,7 @@ div.footer {
 		flex-direction: row;
 		display: flex;
 		align-items: baseline;
-		width: 50%;
+		width: 60%;
 	}
 
 	.caption {
@@ -479,24 +479,35 @@ div.footer {
 	}
 
 	#bpic1 {
-		width: 16.6%;
+		width: 16.5%;
 		padding: 0;
+		padding-bottom: 5px;
+		padding-right: 5px;
 	}
 	#bpic2 {
-		width: 16.6%;
+		width: 16.5%;
 		padding: 0;
+		padding-bottom: 5px;
+		padding-right: 5px;
 	}
 	#bpic3 {
-		width: 16.6%;
+		width: 16.5%;
+		padding-bottom: 5px;
+		padding-right: 5px;
 	}
 	#bpic4 {
-		width: 16.6%;
+		width: 16.5%;
+		padding-bottom: 5px;
+		padding-right: 5px;
 	}
 	#bpic5 {
-		width: 16.6%;
+		width: 16.5%;
+		padding-bottom: 5px;
+		padding-right: 5px;
 	}
 	#bpic6 {
-		width: 16.8%;
+		width: 16.5%;
+		padding-bottom: 5px;
 	}
 	.bottomBox {
 		visibility: visible;
