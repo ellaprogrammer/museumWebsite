@@ -9,7 +9,7 @@ Manetti Shrem Museum Exhibit responsive website from Mock-up provided by undergr
 
 Functionality: splash page & mobile friendly
 
- ![Click for Mobile View](https://github.com/ellaprogrammer/museumWebsite/blob/master/A1%20-%20WT%20mobile%20(above%20the%20fold).pdf)
+ [Click for Mobile View](https://github.com/ellaprogrammer/museumWebsite/blob/master/A1%20-%20WT%20mobile%20(above%20the%20fold).pdf)
 
 Click for Medium View
 
